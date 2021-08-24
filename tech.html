@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4cb327df04.js" crossorigin="anonymous"></script>
+  <title>TechSite</title>
+</head>
+<body>
+
+  <section class = "sub-header tech-header">
+
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="tech.html">TECH</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Technologies</h1>
+
+  </section>
+
+  <section class="tech">
+
+    <h1>Types of Technologies</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+
+    <div class="row">
+      <div class="tech-col">
+        <h3>Mobiles</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+      <div class="tech-col">
+        <h3>Laptops</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+      <div class="tech-col">
+        <h3>Wearables</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="tech-col">
+        <h3>Computers</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+      <div class="tech-col">
+        <h3>Virtual Reality</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+      <div class="tech-col">
+        <h3>AI</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo lobortis nibh et blandit. <br>Duis ac dui tortor. Aenean nibh lectus, dapibus et mauris vel, rutrum bibendum mi.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="footer">
+
+    <h4>About Us</h4>
+    <p>Nunc ultrices elit et nisi vestibulum blandit. Etiam iaculis, libero in imperdiet lobortis, ipsum ex vulputate nunc, sed efficitur ipsum diam a dui. <br> Proin ut congue tortor. Maecenas tincidunt erat vel volutpat iaculis.</p>
+
+    <div class="icons">
+
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+
+      <p>Made in Leaf Village</p>
+
+    </div>
+
+  </section>
+
+  <script>
+    var navLinks = document.getElementById("navlinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+  
+</body>
+</html>
